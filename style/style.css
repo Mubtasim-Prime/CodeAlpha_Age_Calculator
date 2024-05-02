@@ -6,14 +6,11 @@
 }
 
 .container {
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
     width: 100%;
     min-height: 100vh;
     padding: 10px;
     /* background: linear-gradient(135deg, #4203a9, #90bafc); */
-     color: white;  /*font color */ 
+    color: white;  /*font color */ 
     background: linear-gradient(135deg, #000851 0%, #1CB5E0 100% );
     /* background: linear-gradient(90deg, #515ada 0%, #efd5ff 100%); */
     /* background: linear-gradient(90deg, #c67700 0%, #fcff9e 100%); */
@@ -67,6 +64,7 @@
     cursor: pointer;
 }
 
+/* Clickable whole input area*/
 .input-box input::-webkit-calendar-picker-indicator{
     top: 0;
     left: 0;
